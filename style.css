@@ -190,9 +190,13 @@ Navbar
 ////////////////////////////////////////*/
 .nav {
     display: flex;
-    align-items: center;
+  
     padding: auto 14px;
     justify-content: space-between;
+    align-items: stretch;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--theme-ui-colors-border);
     }
 
 .navbar {
