@@ -190,16 +190,16 @@ Navbar
 ////////////////////////////////////////*/
 .nav {
     display: flex;
-  
     padding: auto 14px;
+   
+    }
+
+.navbar {
     justify-content: space-between;
     align-items: stretch;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--theme-ui-colors-border);
-    }
-
-.navbar {
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.08);
 }
 
