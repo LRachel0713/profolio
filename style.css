@@ -37,12 +37,7 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
 }
-.navbar-navigation {
-display: flex;
-align-items: center;
-padding: auto 14px;
-color: var(--textDefault);
-}
+
 
 body {
     font-family: 'Titillium Web', sans-serif;
@@ -87,7 +82,10 @@ small {
     font-weight: 200;
     line-height: 2;
 }
-
+a {
+    color: var(--textDefault);
+    font-size: var(--fontMedium);
+}
 a:hover {
     text-decoration: none;
 }
@@ -190,6 +188,12 @@ a:hover {
 /*/////////////////////////////////////////
 Navbar
 ////////////////////////////////////////*/
+.nav {
+    display: flex;
+    align-items: center;
+    padding: auto 14px;
+    justify-content: space-between;
+    }
 
 .navbar {
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.08);
@@ -200,12 +204,11 @@ Navbar
 }
 
 .nav-link {
-    font-weight: 300;
-    color: #495057;
+    color: var(--textDefault);
 }
 
 .nav-link:hover {
-    color: #495057;
+    color: var(--primary);
     opacity: .95;
 }
 
@@ -306,7 +309,7 @@ Footer
 Media Queries
 ////////////////////////////////////////*/
 
-@media (max-width: 575.98px) { 
+@media (max-width: 576px) { 
     .mobile-list {
         display: block;
         margin-bottom: 25px;
@@ -320,17 +323,17 @@ Media Queries
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 577px) and (max-width: 768px) {  }
 
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 769px) and (max-width: 992px) {  }
 
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 993px) and (max-width: 1200px) { 
     .mobile-app {
         max-width: 600px;
     }
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1201px) { 
     .mobile-app {
         max-width: 600px;
     }
