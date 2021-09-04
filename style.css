@@ -1,3 +1,31 @@
+:root{
+    --blue: #2b80e3;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #e54545;
+    --orange: #fd7e14;
+    --yellow: #fcc030;
+    --green: #30aa5a;
+    --teal: #20c997;
+    --cyan: #f5f8fc;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #2b80e3;
+    --secondary: #6c757d;
+    --success: #30aa5a;
+    --info: #f5f8fc;
+    --warning: #fcc030;
+    --danger: #e54545;
+    --light: #999;
+    --dark: #333;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
 
 body {
     font-family: 'Titillium Web', sans-serif;
