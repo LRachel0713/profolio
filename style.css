@@ -190,17 +190,13 @@ Navbar
 ////////////////////////////////////////*/
 .nav {
     display: flex;
-    padding: auto 14px;
-   
+    padding: auto 14px;   
     }
 
 .navbar {
     justify-content: space-between;
     align-items: stretch;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--borderColor);
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.08);
+    border-bottom: solid 1px var(--borderColor);
 }
 
 .navbar-toggler:focus {
